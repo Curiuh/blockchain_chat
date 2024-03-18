@@ -41,7 +41,7 @@ class Node:
 
     def consensus(self):
         chains = []
-        for peer in peers:
+        for peer in self.peers:
             pass # get that peer's chain
         for chain in chains:
             self.chain.consensus(chain)
